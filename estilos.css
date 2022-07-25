@@ -9,11 +9,13 @@ h1 {
   color: rgb(11, 250, 31);
   font-size: 4em;
   text-align: center;
+  text-shadow: -10px 5px 0 rgb(201, 245, 7), -5px 6px 0 green;
 }
 h2 {
   color: rgb(235, 8, 8);
   font-size: 2em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
 }
 h3 {
   color: rgb(201, 245, 7);
@@ -29,6 +31,10 @@ p {
   text-align: justify;
   font-size: 1.5em;
 }
+span.resaltar {
+  font-size: bold;
+  color: #000;
+}
 #primerParrafo {
   color: lawngreen;
   font-weight: bold;
@@ -39,7 +45,7 @@ p {
 ul,
 ol {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 2em;
 }
 ul > li {
   list-style: lower-alpha;
@@ -53,7 +59,121 @@ ul a {
   font-style: italic;
 }
 div {
-  width: 300px;
-  height: 300px;
-  border: 4px solid #000;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.cuerpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 96.5%;
+  height: 900px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.izquierda {
+  background-color: rgb(46, 44, 45);
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+}
+.derecha {
+  background-color: rgb(236, 125, 33);
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+}
+.centro {
+  background-color: rgb(14, 149, 226);
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+}
+.izquierda2 {
+  background-color: rgb(3, 54, 20);
+  width: 63%;
+  height: 400px;
+  margin: 10px;
+}
+.derecha2 {
+  background-color: rgb(161, 52, 9);
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+}
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d6dad7;
+  width: 96%;
+  height: 250px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 20px;
+}
+.cabeza {
+  background-color: #d6dad7;
+  width: 55%;
+  height: 50px;
+  border: none;
+  border-radius: 0px;
+}
+.menu1 {
+  background-color: rgb(23, 211, 39);
+  width: 35%;
+  height: 50px;
+  float: right;
+  border-radius: 0px;
+  margin: 20px;
+}
+.menu2 {
+  background-color: rgb(179, 24, 24);
+  width: 60%;
+  height: 60px;
+  float: right;
+  border-radius: 0px;
+  margin: 20px;
+}
+.logo {
+  background-color: rgb(37, 8, 201);
+  width: 20%;
+  height: 50px;
+  border-radius: 0px;
+  margin: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #2aaaff;
+  width: 96%;
+  height: 250px;
+  flex-wrap: wrap;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 20px;
+}
+.pie {
+  background-color: #2aaaff;
+  width: 65%;
+  height: 200px;
+  border: none;
+  border-radius: 0px;
+}
+.elemento {
+  background-color: rgb(9, 33, 252);
+  width: 25%;
+  height: 50px;
+  float: right;
+  border-radius: 0px;
+  margin: 30px;
 }
